@@ -11,6 +11,7 @@ const About: NextPage = () => {
       </Head>
 
       <h3>About page</h3>
+      <h3>Port: {process.env.PORT}</h3>
     </div>
   );
 };
